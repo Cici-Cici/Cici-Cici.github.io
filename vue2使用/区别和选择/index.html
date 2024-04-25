@@ -100,14 +100,146 @@
 								<li class="directory">
 									<a href="#" class="directory">
 										<i class="fa fa-plus-square-o"></i>
+										javascript
+									</a>
+									
+							<ul>
+								<li class="file">
+									<a href="/javascript/%E5%AD%98%E5%82%A8/">
+                     
+										    存储
+                     
+									</a>
+								</li>
+								<div class="article-toc" style="display: none;"></div>
+							</ul>
+			
+								</li>
+								
+							</ul>
+			
+							<ul>
+								<li class="directory">
+									<a href="#" class="directory">
+										<i class="fa fa-plus-square-o"></i>
+										react官方使用
+									</a>
+									
+							<ul>
+								<li class="file">
+									<a href="/react%E5%AE%98%E6%96%B9%E4%BD%BF%E7%94%A8/1/">
+                     
+										    1
+                     
+									</a>
+								</li>
+								<div class="article-toc" style="display: none;"></div>
+							</ul>
+			
+								</li>
+								
+							</ul>
+			
+							<ul>
+								<li class="directory">
+									<a href="#" class="directory">
+										<i class="fa fa-plus-square-o"></i>
 										vue2使用
 									</a>
 									
+							<ul>
+								<li class="file">
+									<a href="/vue2%E4%BD%BF%E7%94%A8/%E5%85%B6%E4%BB%96/">
+                     
+										    其他
+                     
+									</a>
+								</li>
+								<div class="article-toc" style="display: none;"></div>
+							</ul>
+			
+							<ul>
+								<li class="file">
+									<a href="/vue2%E4%BD%BF%E7%94%A8/%E5%8A%9F%E8%83%BD/">
+                     
+										    功能
+                     
+									</a>
+								</li>
+								<div class="article-toc" style="display: none;"></div>
+							</ul>
+			
 							<ul>
 								<li class="file active">
 									<a href="/vue2%E4%BD%BF%E7%94%A8/%E5%8C%BA%E5%88%AB%E5%92%8C%E9%80%89%E6%8B%A9/">
                      
 										    区别和选择
+                     
+									</a>
+								</li>
+								<div class="article-toc" style="display: none;"></div>
+							</ul>
+			
+							<ul>
+								<li class="file">
+									<a href="/vue2%E4%BD%BF%E7%94%A8/%E5%9C%BA%E6%99%AF/">
+                     
+										    场景
+                     
+									</a>
+								</li>
+								<div class="article-toc" style="display: none;"></div>
+							</ul>
+			
+							<ul>
+								<li class="file">
+									<a href="/vue2%E4%BD%BF%E7%94%A8/%E5%AE%9A%E4%B9%89/">
+                     
+										    定义
+                     
+									</a>
+								</li>
+								<div class="article-toc" style="display: none;"></div>
+							</ul>
+			
+								</li>
+								
+							</ul>
+			
+							<ul>
+								<li class="directory">
+									<a href="#" class="directory">
+										<i class="fa fa-plus-square-o"></i>
+										vue3官方使用
+									</a>
+									
+							<ul>
+								<li class="file">
+									<a href="/vue3%E5%AE%98%E6%96%B9%E4%BD%BF%E7%94%A8/%E5%8C%BA%E5%88%AB/">
+                     
+										    区别
+                     
+									</a>
+								</li>
+								<div class="article-toc" style="display: none;"></div>
+							</ul>
+			
+								</li>
+								
+							</ul>
+			
+							<ul>
+								<li class="directory">
+									<a href="#" class="directory">
+										<i class="fa fa-plus-square-o"></i>
+										vue3设计原理
+									</a>
+									
+							<ul>
+								<li class="file">
+									<a href="/vue3%E8%AE%BE%E8%AE%A1%E5%8E%9F%E7%90%86/1/">
+                     
+										    1
                      
 									</a>
 								</li>
@@ -162,13 +294,30 @@
 <h3 id="计算属性和侦听器"><a href="#计算属性和侦听器" class="headerlink" title="计算属性和侦听器"></a>计算属性和侦听器</h3><ol>
 <li>计算属性在大多数情况下更合适，执行异步操作 (访问一个 API)，这是计算属性无法做到的</li>
 </ol>
-<h3 id="class和style绑定中使用对象语法和数组语法"><a href="#class和style绑定中使用对象语法和数组语法" class="headerlink" title="class和style绑定中使用对象语法和数组语法"></a>class和style绑定中使用对象语法和数组语法</h3>
+<h3 id="class和style绑定中使用对象语法和数组语法"><a href="#class和style绑定中使用对象语法和数组语法" class="headerlink" title="class和style绑定中使用对象语法和数组语法"></a>class和style绑定中使用对象语法和数组语法</h3><h4 id="class"><a href="#class" class="headerlink" title="class"></a>class</h4><ol>
+<li>用一个变量来控制使用哪个样式<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;div v-<span class="attr">bind</span>:<span class="keyword">class</span>=<span class="string">&quot;&#123; active: isActive &#125;&quot;</span>&gt;&lt;/div&gt;</span><br></pre></td></tr></table></figure></li>
+<li>可以和 class&#x3D;”static”并用<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">&lt;div</span><br><span class="line">  <span class="keyword">class</span>=<span class="string">&quot;static&quot;</span></span><br><span class="line">  v-<span class="attr">bind</span>:<span class="keyword">class</span>=<span class="string">&quot;&#123; active: isActive, &#x27;text-danger&#x27;: hasError &#125;&quot;</span><span class="comment">//这里是因为-所以加了&#x27;&#x27;</span></span><br><span class="line">&gt;&lt;/div&gt;</span><br></pre></td></tr></table></figure></li>
+<li>可以不必内联<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">&lt;div v-<span class="attr">bind</span>:<span class="keyword">class</span>=<span class="string">&quot;classObject&quot;</span>&gt;&lt;/div&gt;</span><br><span class="line"><span class="attr">data</span>: &#123;</span><br><span class="line">  <span class="attr">classObject</span>: &#123;</span><br><span class="line">    <span class="attr">active</span>: <span class="literal">true</span>,</span><br><span class="line">    <span class="string">&#x27;text-danger&#x27;</span>: <span class="literal">false</span></span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br></pre></td></tr></table></figure></li>
+<li>数组语法：应用一个class列表<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">&lt;div v-bind:class=&quot;[activeClass, errorClass]&quot;&gt;&lt;/div&gt;</span><br><span class="line">data: &#123;</span><br><span class="line">  activeClass: &#x27;active&#x27;,</span><br><span class="line">  errorClass: &#x27;text-danger&#x27;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></li>
+</ol>
+<h4 id="选择"><a href="#选择" class="headerlink" title="选择"></a>选择</h4><ol>
+<li>如果只是想用变量控制所有样式是否生效<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">class=&quot;&#123; active: isActive, &#x27;text-danger&#x27;: hasError &#125;&quot;(对象语法)</span><br></pre></td></tr></table></figure></li>
+<li>如果想用变量控制样式是否生效，还要加上一定生效的样式<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">&lt;div</span><br><span class="line">  class=&quot;static&quot;</span><br><span class="line">  v-bind:class=&quot;&#123; active: isActive, &#x27;text-danger&#x27;: hasError &#125;&quot;//这里应该是因为-所以加了&#x27;&#x27;</span><br><span class="line">&gt;&lt;/div&gt;</span><br></pre></td></tr></table></figure></li>
+<li>如果这些样式中有的样式需要变量控制，有的样式需要计算或者改变<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">class=&quot;[&#123; active: isActive &#125;, errorClass]&quot;（对象语法和数组语法结合）</span><br></pre></td></tr></table></figure></li>
+<li>如果需要应用多个样式，样式都需要被计算<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">class=&quot;[activeClass, errorClass]&quot;</span><br></pre></td></tr></table></figure></li>
+</ol>
+
 </div>
 
 <!-- post-guide -->
 
     <div class="post-guide">
         <div class="item left">
+            
+              <a href="/vue2%E4%BD%BF%E7%94%A8/%E5%AE%9A%E4%B9%89/">
+                  <i class="fa fa-angle-left" aria-hidden="true"></i>
+                  定义
+              </a>
             
         </div>
         <div class="item right">
@@ -189,30 +338,31 @@
 </script>
 	</div>
 	<div id="footer">
-	<p>
-	©<span id="footerYear-start"></span>-<span id="footerYear-end"></span>
+	<!-- <p> -->
+	<!-- 到底了 -->
+	<!-- ©<span id="footerYear-start"></span>-<span id="footerYear-end"></span>
 
 	
 	    <a href="/">赖继娟</a>
 	
-	
+
 	
 	<br>
 	Theme <a href="//github.com/wujun234/hexo-theme-tree" target="_blank">Tree</a>
 	by <a href="//wujun.me" target="_blank">Wu Jun</a>
-	Powered by <a href="//hexo.io" target="_blank">Hexo</a>
-	</p>
+	Powered by <a href="//hexo.io" target="_blank">Hexo</a> -->
+	<!-- </p> -->
 </div>
 
 
-<script type="text/javascript">
-	document.getElementById('footerYear-start').innerHTML = new Date().getFullYear() + '';
-</script>
-
-<script type="text/javascript">
-	document.getElementById('footerYear-end').innerHTML = new Date().getFullYear() + '';
-</script>
-
+	<script type="text/javascript">
+		document.getElementById('footerYear-start').innerHTML = new Date().getFullYear() + '';
+	</script>
+	
+		<script type="text/javascript">
+			document.getElementById('footerYear-end').innerHTML = new Date().getFullYear() + '';
+		</script>
+		
 	<button id="totop-toggle" class="toggle"><i class="fa fa-angle-double-up" aria-hidden="true"></i></button>
 </body>
 </html>

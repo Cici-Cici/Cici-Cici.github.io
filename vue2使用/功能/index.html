@@ -9,7 +9,7 @@
 	
 	<title>
 	
-		About me | 
+		page | 
 	 
 	赖继娟的文档
 	</title>
@@ -159,7 +159,7 @@
 							</ul>
 			
 							<ul>
-								<li class="file">
+								<li class="file active">
 									<a href="/vue2%E4%BD%BF%E7%94%A8/%E5%8A%9F%E8%83%BD/">
                      
 										    功能
@@ -257,7 +257,7 @@
 	<!-- 引入正文 -->
 	<div id="content" class="content">
 		<h1 id="article-title">
-	About me
+	page
 </h1>
 
 <!-- meta -->
@@ -265,11 +265,17 @@
 	
 
 	<span>赖继娟</span>
-	<span>2024-04-24 12:18:35</span>
+	<span>2024-04-25 13:54:21</span>
 
   <div id="article-categories">
     
+		  <span>Categories：</span>
+      
+    
 
+    
+		    <span>Tags：</span>
+        
     
   </div>
 
@@ -277,10 +283,38 @@
 
 <!-- content -->
 <div id="article-content">
-	
+	<h2 id="默认"><a href="#默认" class="headerlink" title="默认"></a>默认</h2><ul>
+<li>Vue 会尽可能高效地渲染元素，通常会复用已有元素而不是从头开始渲染。用key值可以防止复用</li>
+<li>在将 v-bind 用于 class 和 style 时，Vue.js 做了专门的增强。表达式结果的类型除了字符串之外，还可以是对象或数组。</li>
+<li>所有的数据绑定，Vue.js 都提供了完全的 JavaScript 表达式支持，只能包含单个表达式（模版表达式中不能访问用户定义的全局变量）<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&#123;&#123; ok ? &#x27;YES&#x27; : &#x27;NO&#x27; &#125;&#125;</span><br></pre></td></tr></table></figure></li>
+<li>当实例创建时就已经存在于 data 中的 property 是响应式的，当这些数据改变时，视图会进行重渲染；如果你添加一个新的 property，改动将不会触发任何视图的更新</li>
+<li>vue将被侦听的数组的变更方法进行了包裹，所以它们也将会触发视图更新。</li>
+<li>由于 JavaScript 的限制，Vue 不能检测数组和对象的变化（可以采用变更方法来变更数组，对于非变更方法可以替换数组来达到相应式效果）<br>1.对于对象：Vue 无法检测 property 的添加或移除。由于 Vue 会在初始化实例时对property 执行 getter&#x2F;setter 转化，所以 property 必须在 data 对象上存在才能让 Vue 将它转换为响应式的<br>2.对于数组：<br>当你利用索引直接设置一个数组项时，例如：vm.items[indexOfItem] &#x3D; newValue<br>当你修改数组的长度时，例如：vm.items.length &#x3D; newLength</li>
+<li>自定义组件 <blog-post-row> 会被作为无效的内容提升到外部（因为有些 HTML 元素，对于哪些元素可以出现在其内部是有严格限制的），并导致最终渲染结果出错。<br>解决办法：is&#x3D;”blog-post-row”<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">&lt;table&gt;</span><br><span class="line">  &lt;tr is=&quot;blog-post-row&quot;&gt;&lt;/tr&gt;</span><br><span class="line">&lt;/table&gt;</span><br></pre></td></tr></table></figure></li>
+</ul>
+
 </div>
 
 <!-- post-guide -->
+
+    <div class="post-guide">
+        <div class="item left">
+            
+              <a href="/vue2%E4%BD%BF%E7%94%A8/%E5%85%B6%E4%BB%96/">
+                  <i class="fa fa-angle-left" aria-hidden="true"></i>
+                  page
+              </a>
+            
+        </div>
+        <div class="item right">
+            
+              <a href="/vue2%E4%BD%BF%E7%94%A8/%E5%AE%9A%E4%B9%89/">
+                定义
+                <i class="fa fa-angle-right" aria-hidden="true"></i>
+              </a>
+            
+        </div>
+    </div>
 
 
 <!-- comment - giscus -->
