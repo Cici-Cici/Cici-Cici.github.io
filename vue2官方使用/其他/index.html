@@ -9,7 +9,7 @@
 	
 	<title>
 	
-		page | 
+		其他 | 
 	 
 	赖继娟的文档
 	</title>
@@ -144,12 +144,12 @@
 								<li class="directory">
 									<a href="#" class="directory">
 										<i class="fa fa-plus-square-o"></i>
-										vue2使用
+										vue2官方使用
 									</a>
 									
 							<ul>
-								<li class="file">
-									<a href="/vue2%E4%BD%BF%E7%94%A8/%E5%85%B6%E4%BB%96/">
+								<li class="file active">
+									<a href="/vue2%E5%AE%98%E6%96%B9%E4%BD%BF%E7%94%A8/%E5%85%B6%E4%BB%96/">
                      
 										    其他
                      
@@ -159,8 +159,8 @@
 							</ul>
 			
 							<ul>
-								<li class="file active">
-									<a href="/vue2%E4%BD%BF%E7%94%A8/%E5%8A%9F%E8%83%BD/">
+								<li class="file">
+									<a href="/vue2%E5%AE%98%E6%96%B9%E4%BD%BF%E7%94%A8/%E5%8A%9F%E8%83%BD/">
                      
 										    功能
                      
@@ -171,7 +171,7 @@
 			
 							<ul>
 								<li class="file">
-									<a href="/vue2%E4%BD%BF%E7%94%A8/%E5%8C%BA%E5%88%AB%E5%92%8C%E9%80%89%E6%8B%A9/">
+									<a href="/vue2%E5%AE%98%E6%96%B9%E4%BD%BF%E7%94%A8/%E5%8C%BA%E5%88%AB%E5%92%8C%E9%80%89%E6%8B%A9/">
                      
 										    区别和选择
                      
@@ -182,20 +182,9 @@
 			
 							<ul>
 								<li class="file">
-									<a href="/vue2%E4%BD%BF%E7%94%A8/%E5%9C%BA%E6%99%AF/">
+									<a href="/vue2%E5%AE%98%E6%96%B9%E4%BD%BF%E7%94%A8/%E5%9C%BA%E6%99%AF/">
                      
 										    场景
-                     
-									</a>
-								</li>
-								<div class="article-toc" style="display: none;"></div>
-							</ul>
-			
-							<ul>
-								<li class="file">
-									<a href="/vue2%E4%BD%BF%E7%94%A8/%E5%AE%9A%E4%B9%89/">
-                     
-										    定义
                      
 									</a>
 								</li>
@@ -257,7 +246,7 @@
 	<!-- 引入正文 -->
 	<div id="content" class="content">
 		<h1 id="article-title">
-	page
+	其他
 </h1>
 
 <!-- meta -->
@@ -265,7 +254,7 @@
 	
 
 	<span>赖继娟</span>
-	<span>2024-04-25 13:54:21</span>
+	<span>1970-01-01 08:00:02</span>
 
   <div id="article-categories">
     
@@ -283,14 +272,32 @@
 
 <!-- content -->
 <div id="article-content">
-	<h2 id="默认"><a href="#默认" class="headerlink" title="默认"></a>默认</h2><ul>
-<li>Vue 会尽可能高效地渲染元素，通常会复用已有元素而不是从头开始渲染。用key值可以防止复用</li>
-<li>在将 v-bind 用于 class 和 style 时，Vue.js 做了专门的增强。表达式结果的类型除了字符串之外，还可以是对象或数组。</li>
-<li>所有的数据绑定，Vue.js 都提供了完全的 JavaScript 表达式支持，只能包含单个表达式（模版表达式中不能访问用户定义的全局变量）<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&#123;&#123; ok ? &#x27;YES&#x27; : &#x27;NO&#x27; &#125;&#125;</span><br></pre></td></tr></table></figure></li>
-<li>当实例创建时就已经存在于 data 中的 property 是响应式的，当这些数据改变时，视图会进行重渲染；如果你添加一个新的 property，改动将不会触发任何视图的更新</li>
-<li>vue将被侦听的数组的变更方法进行了包裹，所以它们也将会触发视图更新。</li>
-<li>由于 JavaScript 的限制，Vue 不能检测数组和对象的变化（可以采用变更方法来变更数组，对于非变更方法可以替换数组来达到相应式效果）<br>1.对于对象：Vue 无法检测 property 的添加或移除。由于 Vue 会在初始化实例时对property 执行 getter&#x2F;setter 转化，所以 property 必须在 data 对象上存在才能让 Vue 将它转换为响应式的<br>2.对于数组：<br>当你利用索引直接设置一个数组项时，例如：vm.items[indexOfItem] &#x3D; newValue<br>当你修改数组的长度时，例如：vm.items.length &#x3D; newLength</li>
-<li>自定义组件 <blog-post-row> 会被作为无效的内容提升到外部（因为有些 HTML 元素，对于哪些元素可以出现在其内部是有严格限制的），并导致最终渲染结果出错。<br>解决办法：is&#x3D;”blog-post-row”<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">&lt;table&gt;</span><br><span class="line">  &lt;tr is=&quot;blog-post-row&quot;&gt;&lt;/tr&gt;</span><br><span class="line">&lt;/table&gt;</span><br></pre></td></tr></table></figure></li>
+	<h2 id="定义"><a href="#定义" class="headerlink" title="定义"></a>定义</h2><h4 id="组件"><a href="#组件" class="headerlink" title="组件"></a>组件</h4><p>组件是可复用的 Vue 实例，且带有一个名字，它们与 new Vue 接收相同的选项，例如 data、computed等</p>
+<h4 id="vue应用"><a href="#vue应用" class="headerlink" title="vue应用"></a>vue应用</h4><p>通过 new Vue 创建的根 Vue 实例，以及可选的嵌套的、可复用的组件树组成；</p>
+<h4 id="指令"><a href="#指令" class="headerlink" title="指令"></a>指令</h4><p>指令带有前缀 v-，以表示它们是 Vue 提供的特殊 attribute。当表达式的值改变时，将其产生的连带影响，响应式地作用于 DOM</p>
+<h4 id="声明式渲染（文本）"><a href="#声明式渲染（文本）" class="headerlink" title="声明式渲染（文本）"></a>声明式渲染（文本）</h4><p>允许使用简洁的模版语法来将数据渲染进DOM系统</p>
+<h4 id="MVVM模式"><a href="#MVVM模式" class="headerlink" title="MVVM模式"></a>MVVM模式</h4><p>是Model-View-ViewModel的简写，model是数据，view是用户界面，ViewModel可以取出 Model 的数据同时帮忙处理 View 中由于需要展示内容而涉及的业务逻辑。ViewModel将视图 UI 和业务逻辑分开，把Model和View关联起来，并实现双向数据绑定<br>MVVM核心思想，是关注model的变化，让MVVM框架利用自己的机制自动更新DOM</p>
+<h4 id="事件修饰符"><a href="#事件修饰符" class="headerlink" title="事件修饰符"></a>事件修饰符</h4><p>1.事件修饰符对事件进行约束等<br>2.键盘事件可添加按键修饰符（下面代码按enter建触发），以前使用的按键码大部分可被别名代替，可以自定义按键别名<input v-on:keyup.enter="submit"><br>3.系统修饰符，按键组合及其问题（.exact 修饰解决）实现各种情况下的时间触发、<br>4.有鼠标按键修饰符</p>
+<h2 id="其他"><a href="#其他" class="headerlink" title="其他"></a>其他</h2><ul>
+<li>data 必须是一个函数<br>返回的是变量的话，使用多次同一个组件间会互相影响，因为用的同一个数据。但是如果是函数的话，用的是同一个函数，不会影响，每次返回变量都是一个新的拷贝</li>
+<li>不要在选项 property 或回调上使用箭头函数，比如</li>
+</ul>
+<p><code>created: () =&gt; console.log(this.a)</code> 或<code>vm.$watch(&#39;a&#39;, newValue =&gt; this.myMethod())</code><br>因为箭头函数并没有 this，this 会作为变量一直向上级词法作用域查找</p>
+<ul>
+<li><p>采用BEM规范书写css能增加代码的阅读性和可维护性。</p>
+</li>
+<li><p>v-if，和v-for在同一个组件上的问题（可以这样但不推荐）<br>不建议这样做是因为效率不好，渲染几个特定元素是没有必要去遍历不相关元素的。而放一个组件上不符合这个基准，因为v-for的优先级更高，不管需不需要渲染都会去遍历</p>
+</li>
+<li><p>v-for需要key值；用v-if，和v-else切换组件时，如果这两个组件内部有相同的元素，会发现这个相同的元素不会销毁了又创建<br>原因：Vue 会尽可能高效地渲染元素，通常会复用已有元素而不是从头开始渲染。这么做除了使 Vue 变得非常快之外，还有其它一些好处，向input元素，在这样一种场景，不想让用户重新输入内容的话就不需要重复创建该元素。<br>key值：(是 Vue 识别节点的一个通用机制)其他场景需要重复的时候，就要用一个具有唯一值的 key attribute 去给 Vue 一个提示，以便它能跟踪每个节点的身份，从而重用和重新排序现有元素</p>
+</li>
+<li><p>绑定内联样式自动添加前缀，多重值<code>&lt;div :style=&quot;&#123; display: [&#39;-webkit-box&#39;, &#39;-ms-flexbox&#39;, &#39;flex&#39;] &#125;&quot;&gt;&lt;/div&gt;</code></p>
+</li>
+<li><p>异步组件</p>
+</li>
+<li><p>AB组件间互相引用的解决方案</p>
+</li>
+<li><p>极少数情况下可能需要手动强制更新</p>
+</li>
 </ul>
 
 </div>
@@ -300,16 +307,16 @@
     <div class="post-guide">
         <div class="item left">
             
-              <a href="/vue2%E4%BD%BF%E7%94%A8/%E5%85%B6%E4%BB%96/">
+              <a href="/vue2%E5%AE%98%E6%96%B9%E4%BD%BF%E7%94%A8/%E5%9C%BA%E6%99%AF/">
                   <i class="fa fa-angle-left" aria-hidden="true"></i>
-                  page
+                  场景
               </a>
             
         </div>
         <div class="item right">
             
-              <a href="/vue2%E4%BD%BF%E7%94%A8/%E5%AE%9A%E4%B9%89/">
-                定义
+              <a href="/vue2%E5%AE%98%E6%96%B9%E4%BD%BF%E7%94%A8/%E5%8C%BA%E5%88%AB%E5%92%8C%E9%80%89%E6%8B%A9/">
+                区别和选择
                 <i class="fa fa-angle-right" aria-hidden="true"></i>
               </a>
             

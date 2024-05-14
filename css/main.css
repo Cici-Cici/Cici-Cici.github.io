@@ -269,11 +269,11 @@ input::placeholder {
 
 .index-li {
 	margin: 20px 0 0 0;
-	border-bottom: 1px solid #99CCFF;
+	border-bottom: 1px solid #336699;
 }
 
 .index-li a {
-	color: #99CCFF;
+	color: #336699;
 }
 
 .index-brief {
@@ -281,7 +281,7 @@ input::placeholder {
 	padding: 5px 5px 10px 5px;
 	font-size: 14px;
 	font-style: italic;
-	color: #99CCFF;
+	color: #336699;
 }
 
 .index-li *:hover {
